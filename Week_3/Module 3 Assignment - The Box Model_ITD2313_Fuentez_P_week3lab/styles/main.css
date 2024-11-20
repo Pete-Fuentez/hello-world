@@ -1,0 +1,134 @@
+:root {
+  --global-color-1: #e4bf00; /* Gold */
+  --shadow-color: #e4bf00; /* Gold */
+  --font-size-h2: 170%;
+  --font-size-h3: 130%;
+  --font-size-h1-main: 150%;
+  --font-size-h3-main: 105%;
+}
+
+/* Reset CSS */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* the styles for the elements */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  width: 600px;
+  margin: 0 auto;
+  border: 3px solid #931420;
+  background-color: #fffded;
+}
+
+/* Style rule for h2 element */
+h2 {
+  font-size: var(--font-size-h2);
+  color: var(--global-color-1);
+  text-indent: 30px;
+}
+
+/* Style rule for h3 element */
+h3 {
+  font-size: var(--font-size-h3);
+  font-style: italic;
+  text-indent: 30px;
+}
+
+.shadow {
+  text-shadow: 2px 2px 5px var(--shadow-color);
+}
+
+/* the styles for the header */
+header {
+  border-bottom: 3px solid #931420;
+  padding-top: 1.5em;
+  padding-bottom: 2em;
+  background: linear-gradient(30deg, #f6bb73 0%, #f6bb73 30%, white 50%, #f6bb73 80%, #f6bb73 100%);
+}
+
+header h2, header h3 {
+  text-indent: 0;
+}
+
+header img {
+  float: left;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+/* the styles for the main content */
+main {
+  clear: left;
+  padding-right: 30px;
+  padding-left: 30px;
+}
+
+main h1 {
+  font-size: var(--font-size-h1-main);
+  border-top: 3px solid #931420;
+  border-bottom: 3px solid #931420;
+  padding: 0.3em 0;
+}
+
+main h2 {
+  color: var(--global-color-1);
+  font-size: var(--font-size-h2);
+  padding: 0.5em 0 0.25em 0;
+}
+
+main h3 {
+  font-size: var(--font-size-h3-main);
+  padding-bottom: 0.25em;
+}
+
+main img {
+  padding-bottom: 1em;
+}
+
+main p {
+  padding-bottom: 0.5em;
+}
+
+/* Style rule for blockquote element */
+main blockquote {
+  padding: 0 2em;
+  font-style: italic;
+}
+
+main ul {
+  padding: 0.25em 0 0 1.25em;
+}
+
+main li {
+  padding-bottom: 0.35em;
+}
+
+/* the styles for the footer */
+footer {
+  background-color: #931420;
+  color: white;
+  padding: 10px; /* Optional: Add some padding for better readability */
+}
+
+footer p {
+  padding: 1em 0;
+}
+
+/* Style rule for html element */
+html {
+  background-color: white;
+}
+
+/* Style rule for the Speakers heading */
+.speakers-heading {
+  border: 3px double #6415ad; /* Double border with the same color as the body border */
+  border-radius: 10px; /* Rounded corners */
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3); /* Box shadow */
+  padding: 10px; /* Padding inside the border */
+  margin: 20px 0; /* Margin to separate it from other elements */
+  background-color: #fffded; /* Optional: Background color to match the body */
+}

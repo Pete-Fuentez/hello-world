@@ -1,8 +1,3 @@
-"""
-File: mode.py
-Prints the mode of a set of numbers in a file.
-"""
-
 fileName = input("Enter the file name: ")
 f = open(fileName, 'r')
     
